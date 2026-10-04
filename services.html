@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Metadata -->
+  <title>Services & Capabilities | Praetorian Technology</title>
+  <meta name="description" content="Discover our technology capabilities: Custom Web Design & Development, UI/UX Prototyping, App Development, AI & Automation, Real Estate CRM Platforms, Data Analytics, and Custom Software.">
+  <meta name="keywords" content="Praetorian Services, Web Design, UI UX, App Development, AI Automation, Real Estate CRM, Custom Software">
+  <meta name="author" content="Praetorian Technology">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://praetorian-technology.vercel.app/services.html">
+
+  <!-- Official Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/images/praetorian_logo.jpg">
+  <link rel="apple-touch-icon" href="assets/images/praetorian_logo.jpg">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://praetorian-technology.vercel.app/services.html">
+  <meta property="og:title" content="Services & Capabilities | Praetorian Technology">
+  <meta property="og:description" content="What We Build: High-performance websites, custom mobile apps, AI automation pipelines, and enterprise CRM solutions.">
+  <meta property="og:image" content="assets/images/praetorian_logo.jpg">
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#FAF8F4">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page-services">
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress-bar" id="scrollProgressBar" aria-hidden="true"></div>
+
+  <!-- Custom Luxury Cursor -->
+  <div class="custom-cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="custom-cursor-circle" id="cursorCircle" aria-hidden="true">
+    <span class="cursor-text" id="cursorText"></span>
+  </div>
+
+  <!-- Ambient Luxury Ribbon Layer -->
+  <div class="bg-ambient-layer" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       SITE HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="site-header" id="header">
+    <div class="container header-inner">
+      <!-- Official Logo -->
+      <a href="index.html" class="brand-logo" aria-label="Praetorian Technology Homepage">
+        <img src="assets/images/praetorian_logo.jpg" alt="Praetorian Technology Official Logo" class="brand-official-logo-img" width="48" height="48">
+        <div class="brand-text">
+          <span class="brand-name">PRAETORIAN</span>
+          <span class="brand-tagline-micro">STRATEGY • DATA • INTELLIGENCE • IMPACT</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">HOME</a>
+        <a href="about.html" class="nav-link">ABOUT</a>
+        <a href="services.html" class="nav-link active">SERVICES</a>
+        <a href="case-studies.html" class="nav-link">CASE STUDIES</a>
+        <a href="crm.html" class="nav-link">CRM</a>
+        <a href="clients.html" class="nav-link">CLIENTS</a>
+        <a href="team.html" class="nav-link">TEAM</a>
+        <a href="future.html" class="nav-link">FUTURE</a>
+        <a href="surprise-websites.html" class="nav-link">SURPRISE WEBSITES</a>
+        <a href="contact.html" class="nav-link">CONTACT</a>
+      </nav>
+
+      <!-- Action Button & Mobile Toggle -->
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-gold">START PROJECT</a>
+        <button class="mobile-menu-toggle" aria-label="Toggle Navigation Menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-drawer" id="mobileDrawer">
+    <div style="display:flex; align-items:center; gap:12px; margin-bottom:20px; padding-bottom:16px; border-bottom:1px solid var(--gold-border-subtle);">
+      <img src="assets/images/praetorian_logo.jpg" alt="Praetorian Technology Logo" class="drawer-logo-img" width="44" height="44">
+      <div>
+        <div style="font-family:var(--font-display); font-weight:800; font-size:1rem; color:var(--text-main);">PRAETORIAN</div>
+        <div style="font-size:0.6rem; color:var(--gold-600); font-weight:700; letter-spacing:0.12em;">STRATEGY • DATA • INTELLIGENCE</div>
+      </div>
+    </div>
+    <div class="mobile-nav-list">
+      <a href="index.html" class="mobile-nav-link">HOME</a>
+      <a href="about.html" class="mobile-nav-link">ABOUT</a>
+      <a href="services.html" class="mobile-nav-link active">SERVICES</a>
+      <a href="case-studies.html" class="mobile-nav-link">CASE STUDIES</a>
+      <a href="crm.html" class="mobile-nav-link">CRM</a>
+      <a href="clients.html" class="mobile-nav-link">CLIENTS</a>
+      <a href="team.html" class="mobile-nav-link">TEAM</a>
+      <a href="future.html" class="mobile-nav-link">FUTURE</a>
+      <a href="surprise-websites.html" class="mobile-nav-link">SURPRISE WEBSITES</a>
+      <a href="contact.html" class="mobile-nav-link">CONTACT</a>
+    </div>
+    <div class="mobile-drawer-contact">
+      <a href="contact.html" class="btn btn-gold" style="width: 100%; margin-bottom: 12px;">START A PROJECT</a>
+      <p style="font-size: 0.85rem; color: var(--text-secondary); text-align: center;">+91 94436 47190 • teenideas.in@gmail.com</p>
+    </div>
+  </div>
+
+  <main>
+    <!-- ==========================================================================
+         PAGE HERO BANNER
+         ========================================================================== -->
+    <section class="page-hero-section">
+      <div class="container">
+        <div class="page-hero-badge">OUR CAPABILITIES</div>
+        <h1 class="page-hero-title">WHAT WE BUILD</h1>
+        <p class="page-hero-subtitle">
+          Comprehensive technology solutions designed and developed with editorial refinement, technical precision, and measurable business impact.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SERVICES GRID (THE 8 SPECIALIZED CAPABILITIES)
+         ========================================================================== -->
+    <section class="services-section" style="padding-top: 40px;">
+      <div class="container">
+        
+        <div class="services-grid">
+          
+          <!-- 01 Web Design & Development -->
+          <article class="service-card">
+            <div class="service-card-media">
+              <span class="service-card-number">01</span>
+              <img src="assets/images/service_web_design.jpg" alt="Web Design & Development on Modern Laptop" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h2 class="service-card-title">WEB DESIGN & DEVELOPMENT</h2>
+              <p class="service-card-text">
+                Custom, high-performance websites built with clean code, modern typography, responsive architecture, and seamless SEO foundations.
+              </p>
+              <div class="service-card-features">
+                <span class="service-feature-pill">Responsive</span>
+                <span class="service-feature-pill">Modern UI</span>
+                <span class="service-feature-pill">Performance</span>
+                <span class="service-feature-pill">Semantic SEO</span>
+              </div>
+              <a href="contact.html" class="service-card-btn">
+                Inquire Service
+                <svg style="width:14px; height:14px; fill:currentColor;" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 02 UI/UX & Prototyping -->
+          <article class="service-card">
+            <div class="service-card-media">
+              <span class="service-card-number">02</span>
+              <img src="assets/images/service_ui_ux.jpg" alt="UI/UX Prototyping Interface Flow Design" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h2 class="service-card-title">UI/UX & PROTOTYPING</h2>
+              <p class="service-card-text">
+                User journey mapping, wireframing, high-fidelity prototypes, design token systems, and interaction models that engage visitors.
+              </p>
+              <div class="service-card-features">
+                <span class="service-feature-pill">Wireframing</span>
+                <span class="service-feature-pill">Design Tokens</span>
+                <span class="service-feature-pill">Interactive Flow</span>
+                <span class="service-feature-pill">Figma Prototyping</span>
+              </div>
+              <a href="contact.html" class="service-card-btn">
+                Inquire Service
+                <svg style="width:14px; height:14px; fill:currentColor;" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 03 App Development -->
+          <article class="service-card">
+            <div class="service-card-media">
+              <span class="service-card-number">03</span>
+              <img src="assets/images/service_app_dev.jpg" alt="Mobile App Development Interface on Smartphone" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h2 class="service-card-title">APP DEVELOPMENT</h2>
+              <p class="service-card-text">
+                Cross-platform mobile applications for iOS and Android with fluid navigation, offline sync, real-time push alerts, and secure APIs.
+              </p>
+              <div class="service-card-features">
+                <span class="service-feature-pill">iOS & Android</span>
+                <span class="service-feature-pill">Cloud Sync</span>
+                <span class="service-feature-pill">Push Triggers</span>
+                <span class="service-feature-pill">Offline-First</span>
+              </div>
+              <a href="contact.html" class="service-card-btn">
+                Inquire Service
+                <svg style="width:14px; height:14px; fill:currentColor;" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 04 AI & Automation -->
+          <article class="service-card">
+            <div class="service-card-media">
+              <span class="service-card-number">04</span>
+              <img src="assets/images/service_ai_automation.jpg" alt="AI & Intelligent Automation Data Visualization" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h2 class="service-card-title">AI & AUTOMATION</h2>
+              <p class="service-card-text">
+                Intelligent chatbots, predictive recommendation logic, workflow automations, and operational integrations that save time and reduce cost.
+              </p>
+              <div class="service-card-features">
+                <span class="service-feature-pill">Workflow AI</span>
+                <span class="service-feature-pill">Chat Assistants</span>
+                <span class="service-feature-pill">Smart Routing</span>
+                <span class="service-feature-pill">LLM Integrations</span>
+              </div>
+              <a href="contact.html" class="service-card-btn">
+                Inquire Service
+                <svg style="width:14px; height:14px; fill:currentColor;" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 05 CRM & Business Software -->
+          <article class="service-card">
+            <div class="service-card-media">
+              <span class="service-card-number">05</span>
+              <img src="assets/images/service_crm_software.jpg" alt="CRM and Business Management Software" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h2 class="service-card-title">CRM & BUSINESS SOFTWARE</h2>
+              <p class="service-card-text">
+                Specialized enterprise software suites tailored for real estate operations, inventory management, customer pipelines, and staff roles.
+              </p>
+              <div class="service-card-features">
+                <span class="service-feature-pill">Lead Tracking</span>
+                <span class="service-feature-pill">Inventory Grid</span>
+                <span class="service-feature-pill">Staff Roles</span>
+                <span class="service-feature-pill">Calendar Sync</span>
+              </div>
+              <a href="crm.html" class="service-card-btn">
+                Explore CRM Platform
+                <svg style="width:14px; height:14px; fill:currentColor;" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 06 Data & Analytics -->
+          <article class="service-card">
+            <div class="service-card-media">
+              <span class="service-card-number">06</span>
+              <img src="assets/images/service_data_analytics.jpg" alt="Data Analytics and Reporting Dashboard Interface" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h2 class="service-card-title">DATA & ANALYTICS</h2>
+              <p class="service-card-text">
+                Visual KPI dashboards, business intelligence reporting, conversion funnel tracking, and automated spreadsheet export engines.
+              </p>
+              <div class="service-card-features">
+                <span class="service-feature-pill">KPI Dashboards</span>
+                <span class="service-feature-pill">Visual Trends</span>
+                <span class="service-feature-pill">Data Export</span>
+                <span class="service-feature-pill">ROI Funnels</span>
+              </div>
+              <a href="contact.html" class="service-card-btn">
+                Inquire Service
+                <svg style="width:14px; height:14px; fill:currentColor;" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 07 Branding & Digital Design -->
+          <article class="service-card">
+            <div class="service-card-media">
+              <span class="service-card-number">07</span>
+              <img src="assets/images/service_branding.jpg" alt="Branding and Digital Identity Mockup" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h2 class="service-card-title">BRANDING & DIGITAL DESIGN</h2>
+              <p class="service-card-text">
+                Editorial identity creation, metallic insignia design, bespoke color palettes, brand guidelines, and high-impact digital asset suites.
+              </p>
+              <div class="service-card-features">
+                <span class="service-feature-pill">Brand Guide</span>
+                <span class="service-feature-pill">Logotypes</span>
+                <span class="service-feature-pill">Assets</span>
+                <span class="service-feature-pill">Typography</span>
+              </div>
+              <a href="contact.html" class="service-card-btn">
+                Inquire Service
+                <svg style="width:14px; height:14px; fill:currentColor;" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 08 Custom Software -->
+          <article class="service-card">
+            <div class="service-card-media">
+              <span class="service-card-number">08</span>
+              <img src="assets/images/service_custom_software.jpg" alt="Custom Software Development Architecture" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <h2 class="service-card-title">CUSTOM SOFTWARE</h2>
+              <p class="service-card-text">
+                Full-stack bespoke web platforms, custom algorithmic engines, robust REST API integrations, and scalable database systems.
+              </p>
+              <div class="service-card-features">
+                <span class="service-feature-pill">REST APIs</span>
+                <span class="service-feature-pill">Database</span>
+                <span class="service-feature-pill">Full-Stack</span>
+                <span class="service-feature-pill">Security</span>
+              </div>
+              <a href="contact.html" class="service-card-btn">
+                Inquire Service
+                <svg style="width:14px; height:14px; fill:currentColor;" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 09 Surprise Experience Websites -->
+          <article class="service-card" style="border: 1px solid var(--gold-400); box-shadow: 0 12px 35px -8px rgba(197, 160, 89, 0.18);">
+            <div class="service-card-media">
+              <span class="service-card-number">09</span>
+              <img src="assets/images/surprise_websites_hero.jpg" alt="Surprise and Personal Experience Websites Showcase" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="badge-gold" style="margin-bottom: 8px; align-self: flex-start;">PERSONAL & CELEBRATIONS</div>
+              <h2 class="service-card-title">SURPRISE EXPERIENCE WEBSITES</h2>
+              <p class="service-card-text">
+                Personalized interactive websites for birthdays, proposals, anniversaries, love stories, memories and every kind of special surprise.
+              </p>
+              <div class="service-card-features">
+                <span class="service-feature-pill">Birthdays</span>
+                <span class="service-feature-pill">Love Proposals</span>
+                <span class="service-feature-pill">Anniversaries</span>
+                <span class="service-feature-pill">Memory Timelines</span>
+              </div>
+              <a href="surprise-websites.html" class="service-card-btn" style="background: var(--gold-gradient); color: #111316; font-weight: 700; border-color: var(--gold-300);">
+                EXPLORE SURPRISE WEBSITES
+                <svg style="width:14px; height:14px; fill:currentColor;" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CTA SECTION
+         ========================================================================== -->
+    <section class="cta-banner-section">
+      <div class="container">
+        <div class="cta-banner-box">
+          <div class="eyebrow" style="color:var(--gold-300);">PROJECT CONSULTATION</div>
+          <h2 class="cta-banner-title">NEED A CUSTOM TECHNOLOGY SOLUTION?</h2>
+          <p class="cta-banner-subtitle">
+            Tell us about your technical specifications and business objectives. We will prepare an architectural proposal and delivery timeline.
+          </p>
+          <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+            <a href="contact.html" class="btn btn-gold">START PROJECT INQUIRY</a>
+            <a href="case-studies.html" class="btn btn-secondary">VIEW CASE STUDIES</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-brand-col">
+          <img src="assets/images/praetorian_logo.jpg" alt="Praetorian Technology Official Logo" class="footer-brand-logo-img" width="58" height="58">
+          <div class="footer-brand-title">PRAETORIAN TECHNOLOGY</div>
+          <div class="footer-brand-tagline">STRATEGY • DATA • INTELLIGENCE • IMPACT</div>
+          <p class="footer-brand-desc">
+            A modern technology and digital solutions company creating premium websites, mobile applications, real estate CRM systems, AI solutions, and custom digital products.
+          </p>
+          <div style="margin-top:16px; display:flex; flex-wrap:wrap; gap:10px;">
+            <a href="https://praetorian-technology.vercel.app" class="btn btn-gold" style="font-size:0.75rem; padding:8px 18px;">VISIT WEBSITE</a>
+            <a href="https://github.com/srilakshman73/Praetorian-technology" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="font-size:0.75rem; padding:8px 18px;">VIEW SOURCE</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Navigation</div>
+          <div class="footer-links-list">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="surprise-websites.html">Surprise Websites</a>
+            <a href="case-studies.html">Case Studies</a>
+            <a href="crm.html">CRM Website</a>
+            <a href="clients.html">Clients</a>
+            <a href="team.html">Team</a>
+            <a href="future.html">Future Capabilities</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Services</div>
+          <div class="footer-links-list">
+            <a href="services.html">Web Design & Dev</a>
+            <a href="surprise-websites.html">Surprise Experience Websites</a>
+            <a href="services.html">UI/UX Prototyping</a>
+            <a href="services.html">App Development</a>
+            <a href="services.html">AI & Automation</a>
+            <a href="crm.html">CRM & Business Software</a>
+            <a href="services.html">Data & Analytics</a>
+            <a href="services.html">Digital Branding</a>
+            <a href="services.html">Custom Software</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Direct Contact</div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            <a href="tel:+919443647190" style="color:inherit; text-decoration:none;">+91 94436 47190</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            <a href="tel:+918608850397" style="color:inherit; text-decoration:none;">+91 86088 50397</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <a href="mailto:teenideas.in@gmail.com" style="color:inherit; text-decoration:none;">teenideas.in@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            <a href="https://www.instagram.com/praetorian_technology" target="_blank" rel="noopener noreferrer">@praetorian_technology</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            <a href="https://github.com/srilakshman73/Praetorian-technology" target="_blank" rel="noopener noreferrer">github.com/srilakshman73/Praetorian-technology</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Praetorian Technology. All Rights Reserved.</div>
+        <div style="font-size:0.75rem; color:var(--gold-600); font-weight:700; letter-spacing:0.12em;">STRATEGY • DATA • INTELLIGENCE • IMPACT</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://praetorian-technology.vercel.app/sitemap.xml
