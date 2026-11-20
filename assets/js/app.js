@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initSideNavigation();
   initCustomCursor();
   initScrollDrivenInteractions();
+  initHero3DTilt();
   initHorizontalProjectShowcase();
   initNavigation();
   initCaseStudyModals();
@@ -18,6 +19,34 @@ document.addEventListener('DOMContentLoaded', () => {
   initContactForm();
   initStatCounters();
 });
+
+/* ========================================================================
+   HERO 3D POINTER TILT
+   ======================================================================== */
+function initHero3DTilt() {
+  const card = document.querySelector('.hero-luxury-media-card');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const finePointer = window.matchMedia('(pointer: fine)').matches;
+  if (!card || reduceMotion || !finePointer) return;
+
+  let frame = 0;
+  card.addEventListener('pointermove', (event) => {
+    const bounds = card.getBoundingClientRect();
+    const x = (event.clientX - bounds.left) / bounds.width;
+    const y = (event.clientY - bounds.top) / bounds.height;
+    cancelAnimationFrame(frame);
+    frame = requestAnimationFrame(() => {
+      card.style.setProperty('--hero-rotate-x', `${(0.5 - y) * 10}deg`);
+      card.style.setProperty('--hero-rotate-y', `${(x - 0.5) * 12}deg`);
+    });
+  });
+
+  card.addEventListener('pointerleave', () => {
+    cancelAnimationFrame(frame);
+    card.style.setProperty('--hero-rotate-x', '0deg');
+    card.style.setProperty('--hero-rotate-y', '0deg');
+  });
+}
 
 /* ==========================================================================
    01. INTRO / PRELOADER (1-2s Luxury Animation)
